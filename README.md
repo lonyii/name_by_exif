@@ -74,7 +74,7 @@ Rename pics & movs by EXIF `DateTimeOriginal` / `CreateDate`, then delete duplic
 | `IMG_1234.JPG` | `2015-11-22_143025_1.JPG` | EXIF `DateTimeOriginal` |
 | `IMG_1235.JPG` | `2015-11-22_143025_2.JPG` | 同一秒的第二个文件 |
 | `MVI_0001.MOV` | `2015-08-01_180000_1.MOV` | `CreateDate`（UTC 10:00 + 8 小时） |
-| `scan.png` | `2016-06-29_104500_1.PNG` | 无 EXIF，改用文件修改时间 |
+| `scan.png` | `2016-06-29_104500_1.png` | 无 EXIF，改用文件修改时间 |
 
 默认格式 `%%Y-%%R-%%d_%%H%%M%%S`，其中 `%%R` 是作者自定义的「月」占位符（脚本内部转成 exiftool 的 `%m`），`%%d` 为日、`%%Y` 为年、`%%H%%M%%S` 为时分秒。**格式中不支持空格和 `. < > / ? | \` 等特殊字符。**
 
