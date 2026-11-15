@@ -1,0 +1,3 @@
+# .bat 为 GBK 编码且依赖 CRLF，.exe 为二进制：不做换行规范化，保持原始字节
+*.bat -text
+*.exe -text

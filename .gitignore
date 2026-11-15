@@ -1,0 +1,9 @@
+# 脚本运行产生的临时文件（见《使用说明.md》§10）
+@list.log
+@count.log
+$
+恢复脚本/
+
+# Windows 常见噪声
+Thumbs.db
+desktop.ini
